@@ -112,9 +112,7 @@ flowchart TD
     C1 --> D1[Split Train / Test]
     D1 --> E1[Train Model]
     E1 --> F1["Eval on Test - LEAKY!"]
-    style F1 fill:#ff6b6b,color:#fff
-    style B1 fill:#ffd93d
-    style C1 fill:#ffd93d
+    
 ```
 
 </td>
@@ -129,9 +127,7 @@ flowchart TD
     D2 --> E2[".transform on Test only"]
     E2 --> F2[Train Model]
     F2 --> G2["Eval on Test - Clean!"]
-    style G2 fill:#6bcb77,color:#fff
-    style C2 fill:#a8d8ea
-    style D2 fill:#a8d8ea
+    
 ```
 
 </td>
